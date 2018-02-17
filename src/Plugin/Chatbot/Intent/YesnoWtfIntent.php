@@ -47,7 +47,7 @@ class YesnoWtfIntent extends IntentPluginBase implements ContainerFactoryPluginI
     $response = $this->getResponseFromYesnowtf();
     $this->response->addIntentAttribute('yesnowtf', TRUE);
     $this->response->setIntentResponse($response->answer);
-    $this->response->setIntentDisplayCard($response->image);
+    $this->response->setIntentDisplayCard('<img src="' . $response->image . '">');
   }
 
   public function getResponseFromYesnowtf() {
