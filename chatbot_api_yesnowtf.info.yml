@@ -1,0 +1,7 @@
+name: 'chatbot_yesnowtf'
+type: module
+description: 'Integrate chatbots with yesno.wtf'
+core: 8.x
+package: 'Chatbot'
+dependencies:
+  - chatbot_api

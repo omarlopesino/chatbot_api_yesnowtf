@@ -1,0 +1,14 @@
+{
+  "name": "drupal/chatbot_yesnowtf",
+  "type": "drupal-module",
+  "description": "Integrate chatbots with yesno.wtf",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/chatbot_yesnowtf",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/chatbot_yesnowtf",
+    "source": "http://cgit.drupalcode.org/chatbot_yesnowtf"
+  },
+  "require": { }
+}
