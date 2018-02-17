@@ -1,5 +1,5 @@
 {
-  "name": "drupal/chatbot_yesnowtf",
+  "name": "drupal/chatbot_api_yesnowtf",
   "type": "drupal-module",
   "description": "Integrate chatbots with yesno.wtf",
   "keywords": ["Drupal"],
