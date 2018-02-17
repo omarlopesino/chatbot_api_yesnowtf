@@ -45,6 +45,7 @@ class YesnoWtfIntent extends IntentPluginBase implements ContainerFactoryPluginI
   public function process() {
     // @TODO: add response as custom payload.
     $response = $this->getResponseFromYesnowtf();
+    $this->response->addIntentAttribute('yesnowtf', TRUE);
     $this->response->setIntentResponse($response->answer);
     $this->response->setIntentDisplayCard($response->image);
   }
